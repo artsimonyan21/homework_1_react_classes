@@ -1,0 +1,56 @@
+.full_page_wrapperr {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs_wrapper {
+  width: 50%;
+  height: 30%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputs_wrapper > input {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  height: 20px;
+  font-size: 18px;
+}
+
+.counter_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  width: 50%;
+  height: 30%;
+  background-color: brown;
+}
+
+.counter_wrapper > button {
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+}
+
+.minus_button {
+  background-color: red;
+  margin-right: 32px;
+  border: none;
+}
+
+.add_button {
+  background-color: green;
+  margin-left: 32px;
+  border: none;
+}
